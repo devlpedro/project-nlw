@@ -86,7 +86,6 @@ section p {
 
 section ul {
     display: flex;
-    flex-wrap: wrap;
     gap: 16px;
 
     margin-top: 24px;
@@ -157,8 +156,4 @@ main section:nth-child(3) {
 
 section {
     overflow: hidden;
-}
-
-section ul {
-    flex-wrap: nowrap;
 }
